@@ -44,7 +44,7 @@ def check_inputs():
     if not args:
         print("AI Code Assistant")
         print('\nUsage: python main.py "your prompt here" [--verbose]')
-        print('Example: python main.py "How do I fix the calculator?"')
+        print('Example: python main.py "What does the eligibility verification agent (EVA) do?"')
         sys.exit(1)
     
     user_prompt = " ".join(args)
